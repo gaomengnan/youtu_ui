@@ -322,8 +322,8 @@ class _CustomerVideoContolsState extends State<CustomerVideoContols>
                 Expanded(
                   child: Container(
                     padding: const EdgeInsets.only(right: 20),
-                    child: Column(
-                      children: const [
+                    child: const Column(
+                      children: [
                         // _buildProgressBar(),
                       ],
                     ),

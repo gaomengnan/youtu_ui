@@ -228,8 +228,8 @@ class VideoPlayScreen extends ConsumerWidget {
                               foregroundImage: NetworkImage(
                                   "https://cdn-icons-png.flaticon.com/128/924/924915.png")),
                         ),
-                        title: Row(
-                          children: const [
+                        title: const Row(
+                          children: [
                             Text(
                               '老王说故事',
                               style: TextStyle(
@@ -255,10 +255,10 @@ class VideoPlayScreen extends ConsumerWidget {
                           ),
                           width: 70,
                           height: 40,
-                          child: Row(
+                          child: const Row(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: const [
+                            children: [
                               Icon(Icons.notifications_none),
                               Icon(Icons.keyboard_arrow_down_outlined)
                             ],
@@ -284,8 +284,8 @@ class VideoPlayScreen extends ConsumerWidget {
                                           MaterialStateProperty.all(
                                               Colors.grey.withOpacity(0.2))),
                                   onPressed: () {},
-                                  child: Row(
-                                    children: const [
+                                  child: const Row(
+                                    children: [
                                       Icon(
                                         Icons.thumb_up_off_alt,
                                         color: Colors.white,
